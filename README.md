@@ -23,7 +23,7 @@ I love the entire process of developing niche and useful projects. I love the ch
 
 - Flutter and Dart
 - Java
-- MangoDB
+- MongoDB
 
 ## 💼 Technical Skills
 
