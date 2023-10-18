@@ -42,6 +42,6 @@ I love the entire process of developing niche and useful projects. I love the ch
 
 ## 📈 GitHub Stats 
 
-[![Hari's github stats](https://github-readme-stats.vercel.app/api?username=Haz3-jolt)](https://github.com/Haz3-jolt)
+[![Hari's github stats](https://github-readme-stats.vercel.app/api?username=Haz3-jolt&theme=dark)](https://github.com/Haz3-jolt)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Haz3-jolt&layout=compact)](https://github.com/Haz3-jolt)
