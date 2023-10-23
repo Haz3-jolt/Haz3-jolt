@@ -21,9 +21,9 @@ I love the entire process of developing niche and useful projects. I love the ch
 
 ## 🌱 I'm currently learning
 
-- Flutter and Dart
 - Java
 - MongoDB
+- Kotlin
 
 ## 💼 Technical Skills
 
