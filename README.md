@@ -37,7 +37,7 @@ I love the entire process of developing niche and useful projects. I love the ch
 
 ## 📝 Latest Projects
 
-- [Use a py script with OpenCV to track fingers](https://github.com/Haz3-jolt/Finger-tracking-gestures)
+- [Use a py script with OpenCV to track hand signs](https://github.com/Haz3-jolt/Finger-tracking-gestures)
 - [Discord bot which fetches the cutoffs for DASA students](https://github.com/Haz3-jolt/DasaBot)
 
 ## 📈 GitHub Stats 
