@@ -1,48 +1,37 @@
-<p align="center">
-  <a href="https://github.com/Haz3-jolt" target="_blank" rel="noreferrer"><img src="https://github.com/Haz3-jolt/Haz3-jolt/assets/79502699/459d2c6c-caa3-46f4-99cd-bfbe605b4d6b" alt="my banner"></a>
-</p>
+# Hello there 👋
+
+```python
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 
 
-<h3 align="center">
-Hi there, I'm Hari👋
-</h3>
+class SoftwareEngineer:
 
-<h2 align="center">
-I'm a aspiring Developer 💻!
-</h2> 
+    def __init__(self):
+        self.name = "Hari Srinivasan"
+        self.role = "Software Developer"
+        self.language_spoken = ["en_US", "ta.IN", "hi.IN"]
 
-I love the entire process of developing niche and useful projects. I love the challenge of fixing small problems while working with a community.
+    def say_hi(self):
+        print("Thanks for dropping by, hope you find some of my work interesting.")
+
+
+me = SoftwareEngineer()
+me.say_hi()
+```
+
+## 🔧 Technologies & Tools
+
+**Programming Languages:**
+
+![Python](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=white&color=6aa6f8)
+![Rust](https://img.shields.io/badge/Code-Rust-informational?style=flat&logo=rust&logoColor=white&color=6aa6f8)
+![Go](https://img.shields.io/badge/Code-Go-informational?style=flat&logo=go&logoColor=white&color=6aa6f8)
+![Java](https://img.shields.io/badge/Code-Java-informational?style=flat&logo=openjdk&logoColor=white&color=6aa6f8)
 
 
 
-## 🔭 I'm currently working on
+## 🏆 GitHub Trophies
 
-- My old projects
-- Polishing my DSA skills (eventually)
+[![trophy](https://github-profile-trophy.vercel.app/?username=haz3-jolt&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
 
-## 🌱 I'm currently learning
-
-- Java
-- MongoDB
-- Kotlin
-
-## 💼 Technical Skills
-
-![](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
-
-</br>
-
-![](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-
-## 📝 Latest Projects
-
-- [Use a py script with OpenCV to track hand signs](https://github.com/Haz3-jolt/Finger-tracking-gestures)
-- [Discord bot which fetches the cutoffs for DASA students](https://github.com/Haz3-jolt/DasaBot)
-
-## 📈 GitHub Stats 
-
-[![Hari's github stats](https://github-readme-stats.vercel.app/api?username=Haz3-jolt&show_icons=true&theme=aura)](https://github.com/Haz3-jolt)
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Haz3-jolt&layout=compact&show_icons=true&theme=aura)](https://github.com/Haz3-jolt)
