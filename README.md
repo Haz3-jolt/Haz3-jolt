@@ -36,3 +36,29 @@ me.say_hi()
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=haz3-jolt&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
 
+```sql
+-- Connect to the database
+\c university_db;
+
+-- Creating a table for Mini Project details
+CREATE TABLE MiniProject (
+    project_id SERIAL PRIMARY KEY,
+    student_name VARCHAR(100) NOT NULL,
+    reg_number INT NOT NULL,
+    department VARCHAR(50),
+    semester INT,
+    course_code VARCHAR(10),
+    course_title VARCHAR(100),
+    project_title VARCHAR(100),
+    supervisor VARCHAR(100),
+    submission_date DATE
+);
+
+-- Inserting your details into the MiniProject table
+INSERT INTO MiniProject (student_name, reg_number, department, semester, course_code, course_title, project_title, supervisor, submission_date) 
+VALUES 
+('Hari Srinivasan', 2023115022, 'Information Science and Technology', 3, 'IT23303', 'Database Management Systems', 'AUSEC Quiz Hosting Website', 'Prof. Dr. P. Geetha', '2024-10-19');
+
+-- Display the project details
+SELECT * FROM MiniProject;
+```
