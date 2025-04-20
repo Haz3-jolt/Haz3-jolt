@@ -1,23 +1,33 @@
 # Hello there 👋
 
-```python
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
+```kotlin
+#!/usr/bin/env kotlin
+@file:Suppress("EXPERIMENTAL_API_USAGE")
 
+import kotlinx.coroutines.*
 
-class SoftwareEngineer:
+object SoftwareEngineer {
+    val name = "Hari Srinivasan"
+    val role = "Software Developer"
+    val languagesUsed = listOf("Kotlin", "Python", "JavaScript", "TypeScript")
 
-    def __init__(self):
-        self.name = "Hari Srinivasan"
-        self.role = "Software Developer"
-        self.language_spoken = ["en_US", "ta.IN", "hi.IN"]
+    suspend fun sayHi() = coroutineScope {
+        launch {
+            delay(500)
+            println("Thanks for dropping by, hope you find some of my work interesting.")
+        }
+    }
 
-    def say_hi(self):
-        print("Thanks for dropping by, hope you find some of my work interesting.")
+    fun showStack() {
+        println("Currently building cool things with: ${languagesUsed.joinToString(", ")}")
+    }
+}
 
+suspend fun main() {
+    SoftwareEngineer.sayHi()
+    SoftwareEngineer.showStack()
+}
 
-me = SoftwareEngineer()
-me.say_hi()
 ```
 
 
