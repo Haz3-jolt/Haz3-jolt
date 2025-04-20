@@ -9,7 +9,7 @@ import kotlinx.coroutines.*
 object SoftwareEngineer {
     val name = "Hari Srinivasan"
     val role = "Software Developer"
-    val languagesUsed = listOf("Kotlin", "Python", "JavaScript", "TypeScript")
+    val languagesUsed = listOf("Kotlin", "Python", "BASH", "C")
 
     suspend fun sayHi() = coroutineScope {
         launch {
