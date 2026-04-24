@@ -9,7 +9,7 @@ import kotlinx.coroutines.*
 object SoftwareEngineer {
     val name = "Hari Srinivasan"
     val role = "Software Developer"
-    val languagesUsed = listOf("Kotlin", "Python", "BASH", "C")
+    val languagesUsed = listOf("Kotlin", "Python", "Go", "C", "BASH")
 
     suspend fun sayHi() = coroutineScope {
         launch {
@@ -32,7 +32,6 @@ suspend fun main() {
 
 
 
-## 🏆 GitHub Trophies
+## 📊 GitHub Stats
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=haz3-jolt&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
-
+<img src="https://github-readme-stats.vercel.app/api?username=Haz3-jolt&show_icons=true&theme=tokyonight&hide_border=true" />
