@@ -1,35 +1,22 @@
-# Hello there 👋
+<a href="https://harisrinivasan.dev">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://harisrinivasan.dev/readme-light.svg">
+    <img alt="Hari Srinivasan, multidisciplinary dev who just loves building" src="https://harisrinivasan.dev/readme-dark.svg">
+  </picture>
+</a>
 
-I'm Hari Srinivasan. More about me and what I build at **[harisrinivasan.dev](https://harisrinivasan.dev)**.
+# Hari Srinivasan
 
-```kotlin
-#!/usr/bin/env kotlin
-@file:Suppress("EXPERIMENTAL_API_USAGE")
+Multidisciplinary dev who just loves building. The whole story, with things you can play with, is at **[harisrinivasan.dev](https://harisrinivasan.dev)**.
 
-import kotlinx.coroutines.*
+**Now**
 
-object SoftwareEngineer {
-    val name = "Hari Srinivasan"
-    val role = "Software Developer"
-    val languagesUsed = listOf("Kotlin", "Python", "Go", "C", "BASH")
+- Maintainer of [Agentic Resource Registry](https://github.com/AgenticResourceRegistry/AgenticResourceRegistry), an open registry of skills, MCP servers, hooks, prompts and agent files
+- Co-author of [Axl](https://github.com/Observal/Axl), a local-first agent harness
+- Contributor to [AnkiDroid](https://github.com/ankidroid/Anki-Android): [Google Summer of Code 2025](https://summerofcode.withgoogle.com/archive/2025/projects/pctRgn1E) on the tablet and Chromebook UI, then Change Note Type
 
-    suspend fun sayHi() = coroutineScope {
-        launch {
-            delay(500)
-            println("Thanks for dropping by, hope you find some of my work interesting.")
-        }
-    }
+**Before**
 
-    fun showStack() {
-        println("Currently building cool things with: ${languagesUsed.joinToString(", ")}")
-    }
-}
+Unity games at twelve, then robots, then Python and ML, then DASA-Bot, which a thousand students used to look up colleges.
 
-suspend fun main() {
-    SoftwareEngineer.sayHi()
-    SoftwareEngineer.showStack()
-}
-
-```
-
-[![My Awesome Stats](https://awesome-github-stats.azurewebsites.net/user-stats/Haz3-jolt?cardType=level&theme=github-dark&fontFamily=&preferLogin=false)](https://git.io/awesome-stats-card)
+[Email](mailto:harisrini21@gmail.com) / [LinkedIn](https://www.linkedin.com/in/hari-haz3) / [harisrinivasan.dev](https://harisrinivasan.dev)
